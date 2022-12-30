@@ -1,0 +1,189 @@
+category,grp,code,descript
+INCI TYPE ,10,100,"Fire, Other                                       "
+INCI TYPE ,11,110,"Structure fire, Other (conversion only)           "
+INCI TYPE ,11,111,Building fire                                     
+INCI TYPE ,11,112,Fires in structure other than in a building       
+INCI TYPE ,11,113,"Cooking fire, confined to container               "
+INCI TYPE ,11,114,"Chimney or flue fire, confined to chimney or flue "
+INCI TYPE ,11,115,"Incinerator overload or malfunction, fire confined"
+INCI TYPE ,11,116,"Fuel burner/boiler malfunction, fire confined     "
+INCI TYPE ,11,117,"Commercial Compactor fire, confined to rubbish    "
+INCI TYPE ,11,118,"Trash or rubbish fire, contained                  "
+INCI TYPE ,12,120,"Fire in mobile prop used as a fixed struc, Other  "
+INCI TYPE ,12,121,Fire in mobile home used as fixed residence       
+INCI TYPE ,12,122,"Fire in motor home, camper, recreational vehicle  "
+INCI TYPE ,12,123,"Fire in portable building, fixed location         "
+INCI TYPE ,13,130,"Mobile property (vehicle) fire, Other             "
+INCI TYPE ,13,131,Passenger vehicle fire                            
+INCI TYPE ,13,132,Road freight or transport vehicle fire            
+INCI TYPE ,13,133,Rail vehicle fire                                 
+INCI TYPE ,13,134,Water vehicle fire                                
+INCI TYPE ,13,135,Aircraft fire                                     
+INCI TYPE ,13,136,Self-propelled motor home or recreational vehicle 
+INCI TYPE ,13,137,Camper or recreational vehicle (RV) fire          
+INCI TYPE ,13,138,Off-road vehicle or heavy equipment fire          
+INCI TYPE ,14,140,"Natural vegetation fire, Other                    "
+INCI TYPE ,14,141,"Forest, woods or wildland fire                    "
+INCI TYPE ,14,142,Brush or brush-and-grass mixture fire             
+INCI TYPE ,14,143,Grass fire                                        
+INCI TYPE ,15,150,"Outside rubbish fire, Other                       "
+INCI TYPE ,15,151,"Outside rubbish, trash or waste fire              "
+INCI TYPE ,15,152,Garbage dump or sanitary landfill fire            
+INCI TYPE ,15,153,Construction or demolition landfill fire          
+INCI TYPE ,15,154,Dumpster or other outside trash receptacle fire   
+INCI TYPE ,15,155,Outside stationary compactor/compacted trash fire 
+INCI TYPE ,16,160,"Special outside fire, Other                       "
+INCI TYPE ,16,161,Outside storage fire                              
+INCI TYPE ,16,162,Outside equipment fire                            
+INCI TYPE ,16,163,Outside gas or vapor combustion explosion         
+INCI TYPE ,16,164,Outside mailbox fire                              
+INCI TYPE ,17,170,"Cultivated vegetation, crop fire, Other           "
+INCI TYPE ,17,171,Cultivated grain or crop fire                     
+INCI TYPE ,17,172,Cultivated orchard or vineyard fire               
+INCI TYPE ,17,173,Cultivated trees or nursery stock fire            
+INCI TYPE ,20,200,"Overpressure rupture, explosion, overheat other   "
+INCI TYPE ,21,210,"Overpressure rupture from steam, Other            "
+INCI TYPE ,21,211,Overpressure rupture of steam pipe or pipeline    
+INCI TYPE ,21,212,Overpressure rupture of steam boiler              
+INCI TYPE ,21,213,Steam rupture of pressure or process vessel       
+INCI TYPE ,22,220,"Overpressure rupture from air or gas, Other       "
+INCI TYPE ,22,221,Overpressure rupture of air or gas pipe/pipeline  
+INCI TYPE ,22,222,Overpressure rupture of boiler from air or gas    
+INCI TYPE ,22,223,Air or gas rupture of pressure or process vessel  
+INCI TYPE ,23,231,Chemical reaction rupture of process vessel       
+INCI TYPE ,24,240,"Explosion (no fire), Other                        "
+INCI TYPE ,24,241,Munitions or bomb explosion (no fire)             
+INCI TYPE ,24,242,Blasting agent explosion (no fire)                
+INCI TYPE ,24,243,Fireworks explosion (no fire)                     
+INCI TYPE ,24,244,Dust explosion (no fire)                          
+INCI TYPE ,25,251,"Excessive heat, scorch burns with no ignition     "
+INCI TYPE ,30,300,"Rescue, EMS incident, other                       "
+INCI TYPE ,31,311,"Medical assist, assist EMS crew                   "
+INCI TYPE ,32,320,"Emergency medical service, other                  "
+INCI TYPE ,32,321,"EMS call, excluding vehicle accident with injury  "
+INCI TYPE ,32,321A,Cardiac Arrest CPR Performed                      
+INCI TYPE ,32,321B,Cardiac Arrest Defib Deployed                     
+INCI TYPE ,32,321C,"Cardiac arrest, non viable patient                "
+INCI TYPE ,32,321F,Narcan Follow Up                                  
+INCI TYPE ,32,321N,"Cardiac Arrest, Narcan Used                       "
+INCI TYPE ,32,321X,"Overdose, no Narcan administered                  "
+INCI TYPE ,32,322,Motor vehicle accident with injuries              
+INCI TYPE ,32,323,Motor vehicle/pedestrian accident (MV Ped)        
+INCI TYPE ,32,324,Motor Vehicle Accident with no injuries           
+INCI TYPE ,33,331,"Lock-in (if lock out , use 511 )                  "
+INCI TYPE ,34,340,"Search for lost person, other                     "
+INCI TYPE ,34,341,Search for person on land                         
+INCI TYPE ,34,342,Search for person in water                        
+INCI TYPE ,34,343,Search for person underground                     
+INCI TYPE ,35,350,"Extrication, rescue, Other                        "
+INCI TYPE ,35,351,Extrication of victim(s) from building/structure  
+INCI TYPE ,35,352,Extrication of victim(s) from vehicle             
+INCI TYPE ,35,353,Removal of victim(s) from stalled elevator        
+INCI TYPE ,35,354,Trench/below-grade rescue                         
+INCI TYPE ,35,355,Confined space rescue                             
+INCI TYPE ,35,356,High-angle rescue                                 
+INCI TYPE ,35,357,Extrication of victim(s) from machinery           
+INCI TYPE ,36,360,"Water & ice-related rescue, other                 "
+INCI TYPE ,36,361,Swimming/recreational water areas rescue          
+INCI TYPE ,36,362,Ice rescue                                        
+INCI TYPE ,36,363,Swift water rescue                                
+INCI TYPE ,36,364,Surf rescue                                       
+INCI TYPE ,36,365,Watercraft rescue                                 
+INCI TYPE ,37,370,"Electrical rescue, Other                          "
+INCI TYPE ,37,371,Electrocution or potential electrocution          
+INCI TYPE ,37,372,Trapped by power lines                            
+INCI TYPE ,38,381,Rescue or EMS standby                             
+INCI TYPE ,40,400,"Hazardous condition, Other                        "
+INCI TYPE ,41,410,"Combustible/flammable gas/liquid condition, other "
+INCI TYPE ,41,411,Gasoline or other flammable liquid spill          
+INCI TYPE ,41,412,Gas leak (natural gas or LPG)                     
+INCI TYPE ,41,413,Oil or other combustible liquid spill             
+INCI TYPE ,42,420,"Toxic condition, Other                            "
+INCI TYPE ,42,421,Chemical hazard (no spill or leak)                
+INCI TYPE ,42,422,Chemical spill or leak                            
+INCI TYPE ,42,423,Refrigeration leak                                
+INCI TYPE ,42,424,Carbon monoxide incident                          
+INCI TYPE ,43,430,"Radioactive condition, Other                      "
+INCI TYPE ,43,431,"Radiation leak, radioactive material              "
+INCI TYPE ,44,440,"Electrical  wiring/equipment problem, Other       "
+INCI TYPE ,44,441,"Heat from short circuit (wiring), defective/worn  "
+INCI TYPE ,44,442,Overheated motor                                  
+INCI TYPE ,44,443,Breakdown of light ballast                        
+INCI TYPE ,44,444,Power line down                                   
+INCI TYPE ,44,445,"Arcing, shorted electrical equipment              "
+INCI TYPE ,45,451,"Biological hazard, confirmed or suspected         "
+INCI TYPE ,46,460,"Accident, potential accident, Other               "
+INCI TYPE ,46,461,Building or structure weakened or collapsed       
+INCI TYPE ,46,462,Aircraft standby                                  
+INCI TYPE ,46,463,"Vehicle accident, general cleanup                 "
+INCI TYPE ,47,471,"Explosive, bomb removal (for bomb scare, use 721) "
+INCI TYPE ,48,480,"Attempted burning, illegal action, Other          "
+INCI TYPE ,48,481,Attempt to burn                                   
+INCI TYPE ,48,482,Threat to burn                                    
+INCI TYPE ,50,500,"Service Call, other                               "
+INCI TYPE ,51,510,"Person in distress, Other                         "
+INCI TYPE ,51,511,Lock-out                                          
+INCI TYPE ,51,512,Ring or jewelry removal                           
+INCI TYPE ,52,520,"Water problem, Other                              "
+INCI TYPE ,52,521,Water evacuation                                  
+INCI TYPE ,52,522,Water or steam leak                               
+INCI TYPE ,53,531,Smoke or odor removal                             
+INCI TYPE ,54,540,"Animal problem, Other                             "
+INCI TYPE ,54,541,Animal problem                                    
+INCI TYPE ,54,542,Animal rescue                                     
+INCI TYPE ,55,550,"Public service assistance, Other                  "
+INCI TYPE ,55,551,Assist police or other governmental agency        
+INCI TYPE ,55,552,Police matter                                     
+INCI TYPE ,55,553,Public service                                    
+INCI TYPE ,55,554,Assist invalid                                    
+INCI TYPE ,55,555,"Defective elevator, no occupants                  "
+INCI TYPE ,56,561,Unauthorized burning                              
+INCI TYPE ,57,571,"Cover assignment, standby, moveup                 "
+INCI TYPE ,60,600,"Good intent call, Other                           "
+INCI TYPE ,61,611,Dispatched & cancelled en route                   
+INCI TYPE ,62,621,Wrong location                                    
+INCI TYPE ,62,622,No Incident found on arrival at dispatch address  
+INCI TYPE ,63,631,Authorized controlled burning                     
+INCI TYPE ,63,632,Prescribed fire                                   
+INCI TYPE ,64,641,Vicinity alarm (incident in other location)       
+INCI TYPE ,65,650,"Steam, Other gas mistaken for smoke, Other        "
+INCI TYPE ,65,651,"Smoke scare, odor of smoke                        "
+INCI TYPE ,65,652,"Steam, vapor, fog or dust thought to be smoke     "
+INCI TYPE ,65,653,"Smoke from barbecue, tar kettle                   "
+INCI TYPE ,66,661,"EMS call, party transported by non-fire agency    "
+INCI TYPE ,67,671,HazMat release investigation w/no HazMat          
+INCI TYPE ,67,672,Biological hazard investigation                   
+INCI TYPE ,70,700,"False alarm or false call, Other                  "
+INCI TYPE ,71,710,"Malicious, mischievous false call, Other          "
+INCI TYPE ,71,711,"Municipal alarm system, malicious false alarm     "
+INCI TYPE ,71,712,"Direct tie to FD, malicious false alarm           "
+INCI TYPE ,71,713,"Telephone, malicious false alarm                  "
+INCI TYPE ,71,714,"Central station, malicious false alarm            "
+INCI TYPE ,71,715,"Local alarm system, malicious false alarm         "
+INCI TYPE ,72,721,Bomb scare - no bomb                              
+INCI TYPE ,73,730,"System malfunction, Other                         "
+INCI TYPE ,73,731,Sprinkler activation due to malfunction           
+INCI TYPE ,73,732,Extinguishing system activation due to malfunction
+INCI TYPE ,73,733,Smoke detector activation due to malfunction      
+INCI TYPE ,73,734,Heat detector activation due to malfunction       
+INCI TYPE ,73,735,Alarm system sounded due to malfunction           
+INCI TYPE ,73,736,CO detector activation due to malfunction         
+INCI TYPE ,74,740,"Unintentional transmission of alarm, Other        "
+INCI TYPE ,74,741,"Sprinkler activation, no fire - unintentional     "
+INCI TYPE ,74,742,Extinguishing system activation                   
+INCI TYPE ,74,743,"Smoke detector activation, no fire - unintentional"
+INCI TYPE ,74,744,"Detector activation, no fire - unintentional      "
+INCI TYPE ,74,745,"Alarm system activation, no fire - unintentional  "
+INCI TYPE ,74,746,"Carbon monoxide detector activation, no CO        "
+INCI TYPE ,75,751,"Biological hazard, malicious false report         "
+INCI TYPE ,80,800,"Severe weather or natural disaster, Other         "
+INCI TYPE ,81,811,Earthquake assessment                             
+INCI TYPE ,81,812,Flood assessment                                  
+INCI TYPE ,81,813,"Wind storm, tornado/hurricane assessment          "
+INCI TYPE ,81,814,Lightning strike (no fire)                        
+INCI TYPE ,81,815,Severe weather or natural disaster standby        
+INCI TYPE ,90,900,"Special type of incident, Other                   "
+INCI TYPE ,90,900A,FIU activity  (not covered by other inc types)    
+INCI TYPE ,90,900T,BFD Drill                                         
+INCI TYPE ,91,911,Citizen complaint                                 
+INCI TYPE ,9,UUU,Undetermined incident type (conversion only)      

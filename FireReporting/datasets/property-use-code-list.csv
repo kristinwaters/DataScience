@@ -1,0 +1,155 @@
+category,grp,code,descript
+PROP USE  ,O,0,"Property Use, Other                               "
+PROP USE  ,1,100,"Assembly, Other                                   "
+PROP USE  ,1,110,"Fixed-use recreation places, other                "
+PROP USE  ,1,111,Bowling establishment                             
+PROP USE  ,1,112,"Billiard center, pool hall                        "
+PROP USE  ,1,113,Electronic amusement center                       
+PROP USE  ,1,114,"Ice rink: indoor, outdoor                         "
+PROP USE  ,1,115,Roller rink: indoor or outdoor                    
+PROP USE  ,1,116,Swimming facility: indoor or outdoor              
+PROP USE  ,1,120,"Variable-use amusement, recreation places, other  "
+PROP USE  ,1,121,"Ballroom, gymnasium                               "
+PROP USE  ,1,122,"Convention center, exhibition hall                "
+PROP USE  ,1,123,"Stadium, arena                                    "
+PROP USE  ,1,124,Playground                                        
+PROP USE  ,1,129,Amusement center: indoor/outdoor                  
+PROP USE  ,1,130,"Places of worship, funeral parlors, other         "
+PROP USE  ,1,131,"Church, mosque, synagogue, temple, chapel         "
+PROP USE  ,1,134,Funeral parlor                                    
+PROP USE  ,1,140,"Clubs, Other                                      "
+PROP USE  ,1,141,Athletic/health club                              
+PROP USE  ,1,142,Clubhouse                                         
+PROP USE  ,1,143,Yacht Club                                        
+PROP USE  ,1,144,"Casino, gambling clubs                            "
+PROP USE  ,1,150,"Public or government, Other                       "
+PROP USE  ,1,151,Library                                           
+PROP USE  ,1,152,Museum                                            
+PROP USE  ,1,154,"Memorial structure, including monuments & statues "
+PROP USE  ,1,155,Courthouse                                        
+PROP USE  ,1,160,"Eating, drinking places, other                    "
+PROP USE  ,1,161,Restaurant or cafeteria                           
+PROP USE  ,1,162,Bar or nightclub                                  
+PROP USE  ,1,170,"Passenger terminal, Other                         "
+PROP USE  ,1,171,Airport passenger terminal                        
+PROP USE  ,1,173,Bus station                                       
+PROP USE  ,1,174,Rapid transit station                             
+PROP USE  ,1,180,"Studio/theater, Other                             "
+PROP USE  ,1,181,Live performance theater                          
+PROP USE  ,1,182,"Auditorium, concert hall                          "
+PROP USE  ,1,183,Movie theater                                     
+PROP USE  ,1,185,"Radio, television studio                          "
+PROP USE  ,1,186,Film/movie production studio                      
+PROP USE  ,2,200,"Educational, Other                                "
+PROP USE  ,2,210,"Schools, non-adult, other                         "
+PROP USE  ,2,211,Preschool                                         
+PROP USE  ,2,213,"Elementary school, including kindergarten         "
+PROP USE  ,2,215,High school/junior high school/middle school      
+PROP USE  ,2,241,"Adult education center, college classroom         "
+PROP USE  ,2,254,"Day care, in commercial property                  "
+PROP USE  ,2,255,"Day care, in residence, licensed                  "
+PROP USE  ,2,256,"Day care in residence, unlicensed.                "
+PROP USE  ,3,300,"Health care, detention, & correction, Other       "
+PROP USE  ,3,311,"24-hour care Nursing homes, 4 or more persons     "
+PROP USE  ,3,321,Mental retardation/development disability facility
+PROP USE  ,3,322,Alcohol or substance abuse recovery center        
+PROP USE  ,3,323,"Asylum, mental institution                        "
+PROP USE  ,3,331,Hospital - medical or psychiatric                 
+PROP USE  ,3,332,Hospices                                          
+PROP USE  ,3,340,"Clinics, doctors offices, hemodialysis cntr, other"
+PROP USE  ,3,341,"Clinic, clinic-type infirmary                     "
+PROP USE  ,3,342,"Doctor, dentist or oral surgeon office            "
+PROP USE  ,3,343,Hemodialysis unit                                 
+PROP USE  ,3,361,"Jail, prison (not juvenile)                       "
+PROP USE  ,3,363,"Reformatory, juvenile detention center            "
+PROP USE  ,3,365,Police station                                    
+PROP USE  ,4,400,"Residential, Other                                "
+PROP USE  ,4,419,1 or 2 family dwelling                            
+PROP USE  ,4,429,Multifamily dwelling                              
+PROP USE  ,4,439,"Boarding/rooming house, residential hotels        "
+PROP USE  ,4,449,"Hotel/motel, commercial                           "
+PROP USE  ,4,459,Residential board and care                        
+PROP USE  ,4,460,"Dormitory-type residence, other                   "
+PROP USE  ,4,462,"Sorority house, fraternity house                  "
+PROP USE  ,4,464,"Barracks, dormitory                               "
+PROP USE  ,5,500,"Mercantile, business, Other                       "
+PROP USE  ,5,511,Convenience store                                 
+PROP USE  ,5,519,"Food and beverage sales, grocery store            "
+PROP USE  ,5,529,"Textile, wearing apparel sales                    "
+PROP USE  ,5,539,"Household goods, sales, repairs                   "
+PROP USE  ,5,549,Specialty shop                                    
+PROP USE  ,5,557,"Personal service, including barber & beauty shops "
+PROP USE  ,5,559,"Recreational, hobby, home repair sales, pet store "
+PROP USE  ,5,564,"Laundry, dry cleaning                             "
+PROP USE  ,5,569,"Professional supplies, services                   "
+PROP USE  ,5,571,"Service station, gas station                      "
+PROP USE  ,5,579,"Motor vehicle or boat sales, services, repair     "
+PROP USE  ,5,580,"General retail, Other                             "
+PROP USE  ,5,581,Department or discount store                      
+PROP USE  ,5,592,Bank                                              
+PROP USE  ,5,593,Office:  veterinary or research                   
+PROP USE  ,5,596,Post office or mailing firms                      
+PROP USE  ,5,599,Business office                                   
+PROP USE  ,6,600,"Ind., utility, defense, agriculture, mining, other"
+PROP USE  ,6,610,"Energy production plant, Other                    "
+PROP USE  ,6,614,Steam or heat-generating plant                    
+PROP USE  ,6,615,Electric-generating plant                         
+PROP USE  ,6,629,Laboratory or science laboratory                  
+PROP USE  ,6,631,"Defense, military installation                    "
+PROP USE  ,6,632,Flight control tower                              
+PROP USE  ,6,635,Computer center                                   
+PROP USE  ,6,639,Communications center                             
+PROP USE  ,6,640,"Utility or Distribution system, Other             "
+PROP USE  ,6,642,Electrical distribution                           
+PROP USE  ,6,644,"Gas distribution, gas pipeline                    "
+PROP USE  ,6,645,"Flammable liquid distribution, F.L. pipeline      "
+PROP USE  ,6,647,Water utility                                     
+PROP USE  ,6,648,Sanitation utility                                
+PROP USE  ,6,655,Crops or orchard                                  
+PROP USE  ,6,659,Livestock production                              
+PROP USE  ,6,669,"Forest, timberland, woodland                      "
+PROP USE  ,6,679,"Mine, quarry                                      "
+PROP USE  ,7,700,"Manufacturing, processing                         "
+PROP USE  ,8,800,"Storage, Other                                    "
+PROP USE  ,8,807,Outside material storage area                     
+PROP USE  ,8,808,Outbuilding or shed                               
+PROP USE  ,8,816,"Grain elevator, silo                              "
+PROP USE  ,8,819,"Livestock, poultry storage                        "
+PROP USE  ,8,839,Refrigerated storage                              
+PROP USE  ,8,849,Outside storage tank                              
+PROP USE  ,8,880,"Vehicle storage, Other                            "
+PROP USE  ,8,881,"Parking garage, (detached residential garage)     "
+PROP USE  ,8,882,"Parking garage, general vehicle                   "
+PROP USE  ,8,888,Fire station                                      
+PROP USE  ,8,891,Warehouse                                         
+PROP USE  ,8,898,"Dock, marina, pier, wharf                         "
+PROP USE  ,8,899,Residential or self-storage units                 
+PROP USE  ,9,900,"Outside or special property, Other                "
+PROP USE  ,9,919,"Dump, sanitary landfill                           "
+PROP USE  ,9,921,"Bridge, trestle                                   "
+PROP USE  ,9,922,Tunnel                                            
+PROP USE  ,9,926,"Outbuilding, protective shelter                   "
+PROP USE  ,9,931,Open land or field                                
+PROP USE  ,9,935,Campsite with utilities                           
+PROP USE  ,9,936,Vacant lot                                        
+PROP USE  ,9,937,Beach                                             
+PROP USE  ,9,938,Graded and cared-for plots of land                
+PROP USE  ,9,940,"Water area, Other                                 "
+PROP USE  ,9,941,"Open ocean, sea or tidal waters                   "
+PROP USE  ,9,946,"Lake, river, stream                               "
+PROP USE  ,9,951,Railroad right-of-way                             
+PROP USE  ,9,952,Railroad yard                                     
+PROP USE  ,9,960,"Street, Other                                     "
+PROP USE  ,9,961,Highway or divided highway                        
+PROP USE  ,9,962,"Residential street, road or residential driveway  "
+PROP USE  ,9,963,Street or road in commercial area                 
+PROP USE  ,9,965,Vehicle parking area                              
+PROP USE  ,9,972,Aircraft runway                                   
+PROP USE  ,9,973,Aircraft taxiway                                  
+PROP USE  ,9,974,Aircraft loading area                             
+PROP USE  ,9,981,Construction site                                 
+PROP USE  ,9,982,Oil or gas field                                  
+PROP USE  ,9,983,"Pipeline, power line or other utility right-of-way"
+PROP USE  ,9,984,Industrial plant yard - area                      
+PROP USE  ,O,NNN,None                                              
+PROP USE  ,O,UUU,Undetermined                                      

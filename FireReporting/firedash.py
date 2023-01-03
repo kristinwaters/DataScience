@@ -7,20 +7,24 @@ Created on FRI Dec 30 2022
 import dash
 import dash_core_components as dcc
 import dash_html_components as html
+import dash_bootstrap_components as dbc
+
 import pandas as pd
 import numpy as np
 from dash.dependencies import Output, Input
+import plotly.express as px
 
 from datetime import datetime, timedelta
 from pandas import DataFrame
 
 # INITIALIZE APPLICATION
-source_file = '../datasets/boston_fire_incidents_2014_dec2022.csv'
-incident_code_file = '../datasets/incident-type-code-list.csv'
+source_file = '/Users/ksarah/Documents/Source/DataScience/FireReporting/datasets/boston_fire_incidents_2014_dec2022.csv'
+property_use_file = '/Users/ksarah/Documents/Source/DataScience/FireReporting/datasets/property-use-code-list.csv'
+incident_code_file = '/Users/ksarah/Documents/Source/DataScience/FireReporting/datasets/incident-type-code-list.csv'
 
 fire_data = pd.read_csv(
     source_file, dtype={'zip': 'str', 'alarm_time': 'str', 'neighborhood': 'str'})
-code_data = pd.read_csv(incident_code_file)
+inc_code_data = pd.read_csv(incident_code_file)
 
 # Convert timestamps
 fire_data['alarm_date'] = pd.to_datetime(
@@ -35,9 +39,9 @@ fire_data['code'] = fire_data['code'].astype('str')
 fire_data['month'] = pd.DatetimeIndex(fire_data['alarm_date']).month
 fire_data['year'] = pd.DatetimeIndex(fire_data['alarm_date']).year
 
-# Merge codes with fire data
-fire_data = fire_data.merge(code_data, how='left').drop(columns=['category', 'descript', 'street_prefix', 'xstreet_suffix',
-                                                                 'xstreet_prefix', 'xstreet_name', 'xstreet_suffix', 'xstreet_type', 'street_suffix', 'address_2', 'category'])
+# Merge incident codes with fire data
+fire_data = fire_data.merge(inc_code_data, how='left').drop(columns=['category', 'descript', 'street_prefix', 'xstreet_suffix',
+                                                                     'xstreet_prefix', 'xstreet_name', 'xstreet_suffix', 'xstreet_type', 'street_suffix', 'address_2'])
 
 # data = combined.query("grp == '11' and neighborhood == 'CH'")
 fire_data.sort_values("alarm_date", inplace=True)
@@ -53,7 +57,8 @@ f_data22 = f_data22.groupby(['month'], as_index=False).incident_number.count()
 f_data22.columns = ['month', 'count']
 
 # Annual Count
-annual_count_data = fire_data.groupby(['year'], as_index=False).incident_number.count()
+annual_count_data = fire_data.groupby(
+    ['year'], as_index=False).incident_number.count()
 annual_count_data.columns = ['year', 'count']
 
 
@@ -64,6 +69,7 @@ external_stylesheets = [
         "rel": "stylesheet",
     },
 ]
+
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 app.title = "Boston Fire Analytics: Data Trends"
 
@@ -100,7 +106,8 @@ app.layout = html.Div(
                                 for neighborhood in np.sort(fire_data.neighborhood.unique())
                             ],
                             value="Charlestown",
-                            clearable=False,
+                            clearable=True,
+                            searchable=True,
                             className="dropdown",
                         ),
                     ]
@@ -115,8 +122,8 @@ app.layout = html.Div(
                                 for incident_code in np.sort(fire_data.code.unique())
                             ],
                             value="100",
-                            clearable=False,
-                            searchable=False,
+                            clearable=True,
+                            searchable=True,
                             className="dropdown",
                         ),
                     ],
@@ -141,6 +148,20 @@ app.layout = html.Div(
         ),
         html.Div(
             children=[
+                html.Div(
+                    children=[
+                    dcc.Graph(id="graph1"),
+                    dcc.Checklist(
+                        id="checklist",
+                        options=[{"label": neighborhood, "value": neighborhood}
+                                 for neighborhood in np.sort(fire_data.neighborhood.unique())
+                                 ],
+                        value=["Charlestown", "Boston"],
+                        inline=True
+                    )],
+                    className="card"
+                ),
+
                 html.Div(
                     children=dcc.Graph(
                         id="price-chart", config={"displayModeBar": False},
@@ -167,6 +188,19 @@ app.layout = html.Div(
 
 
 @app.callback(
+    Output("graph1", "figure"),
+    Input("checklist", "value"))
+def update_line_chart(neighborhoods):
+    f_data = fire_data.groupby(
+        ['year', 'neighborhood'], as_index=False).incident_number.count()
+    f_data.columns = ['year', 'neighborhood', 'count']
+    mask = f_data.neighborhood.isin(neighborhoods)
+    fig = px.line(f_data[mask],
+                  x="year", y="count", color='neighborhood', title="Incidents by Neighborhood")
+    return fig
+
+
+@ app.callback(
     [Output("price-chart", "figure"), Output("volume-chart",
                                              "figure"), Output("annual-chart", "figure")],
     [
@@ -207,7 +241,8 @@ def update_charts(neighborhood, incident_code, start_date, end_date):
             "colorway": ["#17B897"],
         },
     }
-    filtered_annual_count_data = filtered_data.groupby(['year'], as_index=False).incident_number.count()
+    filtered_annual_count_data = filtered_data.groupby(
+        ['year'], as_index=False).incident_number.count()
     filtered_annual_count_data.columns = ['year', 'count']
 
     volume_chart_figure = {
